@@ -1,0 +1,57 @@
+package amazon_Project1.Project1_Amazon;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.ss.util.NumberToTextConverter;
+
+public class Data {
+
+	public static String getExcelData(int row, int cell) {
+		if (cell == 1) {
+			return "pixie doll";
+		} else if (cell == 2) {
+			return "B0CR998DRQ";
+		}
+		return "VELOCIOUS® Magic Flying Fairy Princess Doll, Flying Fairy Doll Toys for Girls, Sky Dancers Flying Pixie Dolls Induction Control Toy, Mini Drone Toys for Kids (1 Pack) and Design";
+	}
+
+	public static String getExcelDataX(int row, int cell) {
+
+		FileInputStream f1 = null;
+		try {
+			f1 = new FileInputStream("C:\\Users\\amolb\\eclipse-workspace\\Selenium\\EXCEL\\Data.xlsx");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+//java needs to know the location of the file 
+		Workbook w1 = null;
+		try {
+			w1 = WorkbookFactory.create(f1);
+		} catch (EncryptedDocumentException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} // open the excel/workbook sheet .workfactory is a classm
+		Sheet s1 = w1.getSheet("logindetails");// exact sheet we needs to open
+		Row r1 = s1.getRow(row);// we will get the row.if we print row directly getting an error likr print r1
+		// System.out.println(r1);
+		org.apache.poi.ss.usermodel.Cell c1 = r1.getCell(cell);// here we get exact cell like row plus column
+		String username = c1.getStringCellValue();// getting values in the cell
+		System.out.println(username);
+		// String
+		// Password=w1.getSheet("logindetails").getRow(1).getCell(1).getStringCellValue();//if
+		// data is alphanumeric
+		String pass = NumberToTextConverter
+				.toText(w1.getSheet("logindetails").getRow(1).getCell(1).getNumericCellValue());
+		// System.out.println(Password);
+		System.out.println(pass);
+		return username;
+	}
+}
