@@ -20,7 +20,7 @@ public class PaymentPage_project1 {
 	@FindBy(xpath = "(//span[@class='a-declarative'])[8]")
 	WebElement changepay_link;
 
-	@FindBy(xpath = "//input[@id='pp-cAsh74-143']")
+	@FindBy(xpath = "//span[.='Cash on Delivery/Pay on Delivery'][1]")
 	WebElement cod_payoption;
 
 	@FindBy(name = "ppw-instrumentRowSelection")

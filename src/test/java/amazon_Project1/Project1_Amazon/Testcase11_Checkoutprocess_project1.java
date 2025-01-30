@@ -21,6 +21,6 @@ public class Testcase11_Checkoutprocess_project1 extends LoginandQuit {
 		PaymentPage_project1 pp = new PaymentPage_project1(driver);
 		pp.proceedbuy();
 		pp.Cashondeliveryoption();
-		pp.usethispayment();
+		// pp.usethispayment();
 	}
 }

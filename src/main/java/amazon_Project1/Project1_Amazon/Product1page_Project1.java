@@ -39,6 +39,7 @@ public class Product1page_Project1 {
 		// notebook = driver.findElement(By.xpath("//span[.='Classmate Pulse 6 Subject
 		// Spiral Notebook - Pack of 3 | Unruled | 300 Pages | 24.0cm x 18.0cm |
 		// Attractive Cover Designs | Soft Cover | Notebooks for College Students']"));
+		Thread.sleep(2000);
 		Set<String> pcid = driver.getWindowHandles();
 		Iterator i1 = pcid.iterator();
 		String parentid = (String) i1.next();
