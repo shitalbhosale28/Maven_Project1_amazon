@@ -15,10 +15,10 @@ import org.testng.Assert;
 
 public class Product1page_Project1 {
 	WebDriver driver;
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //step1	
 	// @FindBy(xpath = "//div[@data-asin='B099S1BQRB']")
-	@FindBy(xpath = "//div[@role='listitem' and @data-asin='B099S1BQRB'][1]")
+	@FindBy(xpath = "//div[@role='listitem' and @data-asin][1]")
 	WebElement notebook;
 	// select dropdown
 	@FindBy(xpath = "//input[@id='add-to-cart-button']")

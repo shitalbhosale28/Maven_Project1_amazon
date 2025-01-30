@@ -1,62 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[result is passed for test=verifyProductDetails]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-01-29T06:42:24 IST" name="Default suite" finished-at="2025-01-29T06:42:50 IST" duration-ms="26289">
+  <suite started-at="2025-01-30T13:16:46 IST" name="Default suite" finished-at="2025-01-30T13:17:08 IST" duration-ms="21211">
     <groups>
     </groups>
-    <test started-at="2025-01-29T06:42:24 IST" name="Default test" finished-at="2025-01-29T06:42:50 IST" duration-ms="26289">
-      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:25 IST" name="launchbrowser" finished-at="2025-01-29T06:42:29 IST" duration-ms="4265" status="PASS">
+    <test started-at="2025-01-30T13:16:46 IST" name="Default test" finished-at="2025-01-30T13:17:08 IST" duration-ms="21211">
+      <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1@799f10e1]" started-at="2025-01-30T13:16:46 IST" name="launchbrowser" finished-at="2025-01-30T13:16:49 IST" duration-ms="2493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="loginwithcorrectcred(java.lang.String,java.lang.String)[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:29 IST" name="loginwithcorrectcred" data-provider="usernamepass" finished-at="2025-01-29T06:42:36 IST" duration-ms="6708" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shital.bhosale@hotmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyProductDetails()[pri:0, instance:amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1@799f10e1]" started-at="2025-01-30T13:16:49 IST" name="verifyProductDetails" finished-at="2025-01-30T13:17:05 IST" duration-ms="16347" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[result is passed for test=verifyProductDetails]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- loginwithcorrectcred -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:36 IST" name="quit" finished-at="2025-01-29T06:42:38 IST" duration-ms="2471" status="PASS">
+        </test-method> <!-- verifyProductDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1@799f10e1]" started-at="2025-01-30T13:17:05 IST" name="quit" finished-at="2025-01-30T13:17:08 IST" duration-ms="2341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:38 IST" name="launchbrowser" finished-at="2025-01-29T06:42:42 IST" duration-ms="4078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchbrowser -->
-        <test-method signature="loginwithcorrectcred(java.lang.String,java.lang.String)[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:42 IST" name="loginwithcorrectcred" data-provider="usernamepass" finished-at="2025-01-29T06:42:48 IST" duration-ms="5739" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9604232794
-]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Komal@2025]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithcorrectcred -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider@4562e04d]" started-at="2025-01-29T06:42:48 IST" name="quit" finished-at="2025-01-29T06:42:50 IST" duration-ms="2364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider -->
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

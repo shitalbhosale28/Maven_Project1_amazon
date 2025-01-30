@@ -2,7 +2,7 @@ package amazon_Project1.Project1_Amazon;
 
 import org.testng.annotations.Test;
 
-public class TestCase02_Loginwithdataprovider extends LoginandQuitSingle {
+public class TestCase02_Loginwithdataprovider extends LoginandQuit {
 	@Test(retryAnalyzer = RetryTests.class, dataProvider = "usernamepass")
 	public void loginwithcorrectcred(String Usernmae, String password) throws InterruptedException {
 		NewUser_Project1 n1 = new NewUser_Project1(driver);

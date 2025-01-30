@@ -13,7 +13,7 @@ public class HomePage_Project1 {
 	// step1
 	@FindBy(name = "email")
 	WebElement username;
-	@FindBy(xpath = "//span[@class='nav-line-2 ']")
+	@FindBy(xpath = "//*[@id='nav-link-accountList']")
 	WebElement account_signhoverover;
 
 	@FindBy(xpath = "(//span[.='Sign in'])[1]")

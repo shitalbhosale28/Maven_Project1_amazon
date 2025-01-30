@@ -1,14 +1,19 @@
 package amazon_Project1.Project1_Amazon;
 
+import java.time.Duration;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegistrationPage_Project1 {
 
 	WebDriver driver;
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	// step1
 	@FindBy(linkText = "Start here.")
 	WebElement starthere;
@@ -27,7 +32,7 @@ public class RegistrationPage_Project1 {
 
 	// step2
 	public void starthere_Register() throws InterruptedException {
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.visibilityOf(starthere));
 		starthere.click();
 	}
 
