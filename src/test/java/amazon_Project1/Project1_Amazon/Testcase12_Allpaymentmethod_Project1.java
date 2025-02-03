@@ -22,7 +22,7 @@ public class Testcase12_Allpaymentmethod_Project1 extends LoginandQuit {
 		PaymentPage_project1 pp = new PaymentPage_project1(driver);
 		pp.proceedbuy();
 		// pp.Cashondeliveryoption();
-		pp.allapyment_selection();
+		pp.allapyment_selection(driver);
 
 	}
 }

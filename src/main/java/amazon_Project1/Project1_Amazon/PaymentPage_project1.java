@@ -54,7 +54,7 @@ public class PaymentPage_project1 {
 		Proceedbutton.click();
 	}
 
-	public void allapyment_selection() {
+	public void allapyment_selection(WebDriver driver) {
 		credicard_radio.click();
 		netbanking_radio.click();
 		wait.until(ExpectedConditions.visibilityOf(otherupi));
@@ -68,11 +68,13 @@ public class PaymentPage_project1 {
 		changepay_link.click();
 	}
 
-	public void coupencode() {
+	public void coupencode() throws InterruptedException {
+		Thread.sleep(4000);
 		coupencode.sendKeys("Match251" + Keys.ENTER);
 	}
 
 	public void Cashondeliveryoption() {
+		wait.until(ExpectedConditions.elementToBeClickable(cod_payoption));
 		cod_payoption.click();
 	}
 

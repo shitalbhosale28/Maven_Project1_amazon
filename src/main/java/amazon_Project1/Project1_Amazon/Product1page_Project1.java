@@ -18,7 +18,7 @@ public class Product1page_Project1 {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //step1	
 	// @FindBy(xpath = "//div[@data-asin='B099S1BQRB']")
-	@FindBy(xpath = "//div[@role='listitem' and @data-asin][1]")
+	@FindBy(xpath = "//div[@role='listitem' and @data-asin][4]")
 	WebElement notebook;
 	// select dropdown
 	@FindBy(xpath = "//input[@id='add-to-cart-button']")
@@ -34,12 +34,12 @@ public class Product1page_Project1 {
 	WebElement addedtocart_text;
 
 	public void product(WebDriver driver) throws InterruptedException {
-		wait.until(ExpectedConditions.visibilityOf(notebook));
+		wait.until(ExpectedConditions.elementToBeClickable(notebook));
 		notebook.click();
 		// notebook = driver.findElement(By.xpath("//span[.='Classmate Pulse 6 Subject
 		// Spiral Notebook - Pack of 3 | Unruled | 300 Pages | 24.0cm x 18.0cm |
 		// Attractive Cover Designs | Soft Cover | Notebooks for College Students']"));
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		Set<String> pcid = driver.getWindowHandles();
 		Iterator i1 = pcid.iterator();
 		String parentid = (String) i1.next();

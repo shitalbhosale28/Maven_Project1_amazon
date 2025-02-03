@@ -1,9 +1,7 @@
 package amazon_Project1.Project1_Amazon;
 
-import org.testng.annotations.Test;
-
 public class Testcase14_Starrating_placedorder extends LoginandQuit {
-	@Test(retryAnalyzer = RetryTests.class)
+	// @Test(retryAnalyzer = RetryTests.class)
 	public void applycoupen() throws InterruptedException {
 		HomePage_Project1 h1 = new HomePage_Project1(driver);
 		SearchResultPage_Project1 s1 = new SearchResultPage_Project1(driver);

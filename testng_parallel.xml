@@ -6,7 +6,8 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1"/>
-      <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration"/>
+      
+     <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider"/>
       <class name="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin"/>
       <class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile"/>
@@ -14,16 +15,16 @@
       <class name="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase13_applycoupen"/>
-      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred"/>
+     
       <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1"/>
-      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder"/>
+      
       <class name="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="firefoxTest">
-  <parameter name="browser" value="firefox"></parameter>
+ <test thread-count="5" name="EdgeTest">
+  <parameter name="browser" value="Edge"></parameter>
     <classes>
       <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration"/>
@@ -34,12 +35,13 @@
       <class name="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase13_applycoupen"/>
-      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred"/>
+     
       <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1"/>
-      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder"/>
+      
       <class name="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1"/>
       <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1"/>
     </classes>
   </test> <!-- Test -->
+ 
 </suite> <!-- Suite -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="559.951" tests="42" errors="0" skipped="10" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="309.402" tests="16" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\amolb\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\amolb\AppData\Local\Temp\surefire10802735603712859339\surefirebooter-20250203074722686_3.jar C:\Users\amolb\AppData\Local\Temp\surefire10802735603712859339 2025-02-03T07-47-22_511-jvmRun1 surefire-20250203074722686_1tmp surefire_0-20250203074722686_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amolb\AppData\Local\Temp\surefire15709668571088370886\surefirebooter-20250204022247242_3.jar C:\Users\amolb\AppData\Local\Temp\surefire15709668571088370886 2025-02-04T02-22-47_138-jvmRun1 surefire-20250204022247242_1tmp surefire_0-20250204022247242_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\amolb\eclipse-workspace\Maven_Project1_amazon\target\test-classes;C:\Users\amolb\eclipse-workspace\Maven_Project1_amazon\target\classes;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\amolb\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\amolb\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\amolb\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\amolb\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\amolb\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\amolb\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\amolb\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\amolb\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\amolb\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\amolb\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\amolb\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\amolb\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\amolb\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\amolb\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\amolb\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\amolb\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\amolb\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\amolb\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\amolb\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\amolb\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\amolb\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\amolb\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\amolb\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\amolb\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\amolb\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\amolb\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\amolb\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.1\log4j-slf4j-impl-2.1.jar;C:\Users\amolb\.m2\repository\org\apache\logging\log4j\log4j-api\2.1\log4j-api-2.1.jar;C:\Users\amolb\.m2\repository\org\apache\logging\log4j\log4j-core\2.1\log4j-core-2.1.jar;C:\Users\amolb\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amolb\AppData\Local\Temp\surefire10802735603712859339\surefirebooter-20250203074722686_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amolb\AppData\Local\Temp\surefire15709668571088370886\surefirebooter-20250204022247242_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37"/>
@@ -60,567 +60,135 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="loginwithcorrectcred[shital.bhosale@hotmail.com, Test@12345](1)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="8.896">
-    <system-out><![CDATA[result is passed for test=loginwithcorrectcred
+  <testcase name="addandremove" classname="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1" time="26.673">
+    <system-out><![CDATA[Test started for test=addandremove
 ]]></system-out>
     <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
-Feb 03, 2025 7:47:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:47:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 04, 2025 2:22:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="loginwithcorrectcred[shital.bhosale@hotmail.com, Test@12345](1)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="0.036">
-    <system-out><![CDATA[result is passed for test=loginwithcorrectcred
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:51:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:51:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="loginwithcorrectcred[9604232794&#10;, Komal@2025](2)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="32.782">
-    <system-out><![CDATA[result is passed for test=loginwithcorrectcred
-]]></system-out>
-  </testcase>
-  <testcase name="loginwithcorrectcred[9604232794&#10;, Komal@2025](2)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="0.0">
-    <skipped message="unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;To maximize a minimized or fullscreen window, restore it to normal state first.&quot;}&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8e25ceb2db4d3d8db961e34771e26d9a, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62472/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8e25ceb2db4d3d8db961e34771e26d9a"/>
-  </testcase>
-  <testcase name="launchbrowser[chrome, null](0)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="3.955">
-    <failure message="unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;To maximize a minimized or fullscreen window, restore it to normal state first.&quot;}&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8e25ceb2db4d3d8db961e34771e26d9a, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62472/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8e25ceb2db4d3d8db961e34771e26d9a" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: unhandled inspector error: {"code":-32000,"message":"To maximize a minimized or fullscreen window, restore it to normal state first."}
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e25ceb2db4d3d8db961e34771e26d9a, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62472/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e25ceb2db4d3d8db961e34771e26d9a
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
-	at amazon_Project1.Project1_Amazon.LoginandQuit.launchbrowser(LoginandQuit.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-err><![CDATA[Feb 03, 2025 7:52:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:52:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="quit" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchproduct1" classname="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" time="13.26">
-    <system-out><![CDATA[result is passed for test=searchproduct1
-]]></system-out>
-  </testcase>
-  <testcase name="searchproduct1" classname="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" time="3.355">
-    <system-out><![CDATA[result is passed for test=searchproduct1
-]]></system-out>
-  </testcase>
-  <testcase name="loginwithincorrectcred" classname="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect" time="13.925">
-    <system-out><![CDATA[result is passed for test=loginwithincorrectcred
-]]></system-out>
-  </testcase>
-  <testcase name="loginwithincorrectcred" classname="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect" time="14.846">
-    <system-out><![CDATA[result is passed for test=loginwithincorrectcred
-]]></system-out>
-  </testcase>
-  <testcase name="verifyFilter" classname="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter" time="34.726">
-    <system-out><![CDATA[result is passed for test=verifyFilter
-]]></system-out>
-  </testcase>
-  <testcase name="verifyFilter" classname="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter" time="2.704">
-    <system-out><![CDATA[result is passed for test=verifyFilter
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:53:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:53:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:53:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="registration" classname="amazon_Project1.Project1_Amazon.Testcase01_Registration" time="0.0">
-    <skipped message="invalid session id: session deleted as the browser has closed the connection&#10;from disconnected: unable to send message to renderer&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7d5cba58c0d3498245cf4aa4c11e6dda, findElement {value=Start here., using=link text}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58918/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7d5cba58c0d3498245cf4aa4c11e6dda"/>
-    <system-out><![CDATA[retrying for retrycount =1
-]]></system-out>
-  </testcase>
-  <testcase name="registration" classname="amazon_Project1.Project1_Amazon.Testcase01_Registration" time="30.032">
-    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at amazon_Project1.Project1_Amazon.RegistrationPage_Project1.starthere_Register(RegistrationPage_Project1.java:35)
-	at amazon_Project1.Project1_Amazon.Testcase01_Registration.registration(Testcase01_Registration.java:9)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-out><![CDATA[result is passed for test=verifyProductDetails
-]]></system-out>
-  </testcase>
-  <testcase name="registration" classname="amazon_Project1.Project1_Amazon.Testcase01_Registration" time="0.0">
-    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null"/>
-    <system-out><![CDATA[retrying for retrycount =1
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:51:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="registration" classname="amazon_Project1.Project1_Amazon.Testcase01_Registration" time="4.604">
-    <system-out><![CDATA[result is passed for test=registration
-]]></system-out>
-  </testcase>
-  <testcase name="editprofile" classname="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" time="7.913">
-    <system-out><![CDATA[result is passed for test=editprofile
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:48:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:48:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:48:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:48:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:48:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="editprofile" classname="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" time="3.882">
-    <system-out><![CDATA[result is passed for test=editprofile
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:52:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="verifyProductDetails" classname="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1" time="7.793"/>
-  <testcase name="verifyProductDetails" classname="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1" time="3.978"/>
-  <testcase name="addtocart" classname="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" time="43.453">
-    <system-out><![CDATA[result is passed for test=addtocart
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:49:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="addtocart" classname="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" time="0.0">
-    <skipped message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f77ca5192823810f707e44391e0233e, actions {actions=[org.openqa.selenium.interactions.Sequence@6b12ab5c]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62915}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62915/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f77ca5192823810f707e44391e0233e"/>
-    <system-out><![CDATA[retrying for retrycount =1
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:52:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="addtocart" classname="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" time="8.818"/>
-  <testcase name="verifySort" classname="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1" time="44.272">
-    <system-out><![CDATA[result is passed for test=verifySort
-]]></system-out>
-  </testcase>
-  <testcase name="verifySort" classname="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1" time="21.932"/>
-  <testcase name="checkout" classname="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1" time="0.0">
-    <skipped/>
-    <system-out><![CDATA[retrying for retrycount =1
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:49:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:49:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:49:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="checkout" classname="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1" time="22.526">
-    <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5fdee9e386e70f57cd33b7b99da96500, clickElement {id=f.65333D55264CB4CAC951BD4DF9B30A7F.d.24F4772EEDF73050C7299760A1E62D06.e.196}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61283/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (5fdee9e386e70f57cd33b7b99da96500)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 5fdee9e386e70f57cd33b7b99da96500" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fdee9e386e70f57cd33b7b99da96500, clickElement {id=f.65333D55264CB4CAC951BD4DF9B30A7F.d.24F4772EEDF73050C7299760A1E62D06.e.196}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61283/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5fdee9e386e70f57cd33b7b99da96500)] -> xpath: //span[.='Cash on Delivery/Pay on Delivery'][1]]
-Session ID: 5fdee9e386e70f57cd33b7b99da96500
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:23)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-err><![CDATA[Feb 03, 2025 7:51:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="checkout" classname="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1" time="0.0">
-    <skipped message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [99133e113f4ed0522c45d3b6601eabe7, clickElement {id=f.DCE6F60B11BBF5D800D0DC48A7C3C42D.d.D5D500B030BAC2E1A4DA7A4AAA21F83F.e.211}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63229/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (99133e113f4ed0522c45d3b6601eabe7)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 99133e113f4ed0522c45d3b6601eabe7"/>
-    <system-out><![CDATA[retrying for retrycount =1
-]]></system-out>
-  </testcase>
-  <testcase name="checkout" classname="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1" time="18.594">
-    <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [419b91e2514c64c927b0b1968226a7fd, clickElement {id=f.00944668F6A28A50DC4CF845DAEDB152.d.4BB2CDAAF5C87BF4C65531E095CE9F26.e.205}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64835/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (419b91e2514c64c927b0b1968226a7fd)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 419b91e2514c64c927b0b1968226a7fd" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [419b91e2514c64c927b0b1968226a7fd, clickElement {id=f.00944668F6A28A50DC4CF845DAEDB152.d.4BB2CDAAF5C87BF4C65531E095CE9F26.e.205}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64835/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (419b91e2514c64c927b0b1968226a7fd)] -> xpath: //span[.='Cash on Delivery/Pay on Delivery'][1]]
-Session ID: 419b91e2514c64c927b0b1968226a7fd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:23)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-err><![CDATA[Feb 03, 2025 7:55:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-]]></system-err>
-  </testcase>
-  <testcase name="addandremove" classname="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1" time="1.985">
+  <testcase name="addtocart" classname="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" time="15.486">
     <system-out><![CDATA[result is passed for test=addandremove
+Test started for test=addtocart
 ]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:50:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:50:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:23:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="addandremove" classname="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1" time="0.0">
-    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-icon a-icon-small-add&apos;]&quot;}&#10;  (Session info: chrome=132.0.6834.160)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e5d7eb9cc525f14f65098bc50fb41976, findElement {value=//span[@class=&apos;a-icon a-icon-small-add&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63145/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e5d7eb9cc525f14f65098bc50fb41976"/>
-    <system-out><![CDATA[retrying for retrycount =1
+  <testcase name="cartpage_withoutlogin" classname="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin" time="11.808">
+    <system-out><![CDATA[result is passed for test=addtocart
+Test started for test=cartpage_withoutlogin
 ]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:23:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
   </testcase>
-  <testcase name="addandremove" classname="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1" time="53.279">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;a-icon a-icon-small-add&apos;]&quot;}&#10;  (Session info: chrome=132.0.6834.160)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f57fc051592ec0805b8b7fb95cc2a98, findElement {value=//span[@class=&apos;a-icon a-icon-small-add&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65181/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f57fc051592ec0805b8b7fb95cc2a98" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-icon a-icon-small-add']"}
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f57fc051592ec0805b8b7fb95cc2a98, findElement {value=//span[@class='a-icon a-icon-small-add'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65181/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f57fc051592ec0805b8b7fb95cc2a98
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.AddandDeleteCartPage_Project1.add_cart_increment(AddandDeleteCartPage_Project1.java:41)
-	at amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1.addandremove(TestCase10_AddandRemoveCart_Project1.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-  </testcase>
-  <testcase name="cartpage_withoutlogin" classname="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin" time="4.9">
+  <testcase name="editprofile" classname="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" time="15.161">
     <system-out><![CDATA[result is passed for test=cartpage_withoutlogin
+Test started for test=editprofile
 ]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:50:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:23:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="cartpage_withoutlogin" classname="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin" time="14.066"/>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" time="4.913">
-    <system-out><![CDATA[result is passed for test=applycoupen
+  <testcase name="searchproduct1" classname="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" time="10.547">
+    <system-out><![CDATA[result is passed for test=editprofile
+Test started for test=searchproduct1
 ]]></system-out>
-  </testcase>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" time="0.683">
-    <system-err><![CDATA[Feb 03, 2025 7:55:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:55:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:24:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder" time="0.0">
-    <skipped message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [90f5278c32cf0b9f33e43c2d3f7393c3, clickElement {id=f.FFE7E0498056A47873FD4574DBA9BB11.d.E93C06DDC10DC2B3ECA0D59DBC581D9D.e.214}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60434/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (90f5278c32cf0b9f33e43c2d3f7393c3)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 90f5278c32cf0b9f33e43c2d3f7393c3"/>
-    <system-out><![CDATA[retrying for retrycount =1
+  <testcase name="verifyFilter" classname="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter" time="16.297">
+    <system-out><![CDATA[result is passed for test=searchproduct1
+Test started for test=verifyFilter
 ]]></system-out>
-  </testcase>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder" time="17.003">
-    <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8ad891f780dc6893c0ee8fb65f2b80f8, clickElement {id=f.5330117DEE7FAADF6E2179BD3D528B4D.d.0C51DB4593FFC9B7A29E754EB33E0C67.e.17877}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61893/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (8ad891f780dc6893c0ee8fb65f2b80f8)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 8ad891f780dc6893c0ee8fb65f2b80f8" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8ad891f780dc6893c0ee8fb65f2b80f8, clickElement {id=f.5330117DEE7FAADF6E2179BD3D528B4D.d.0C51DB4593FFC9B7A29E754EB33E0C67.e.17877}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61893/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8ad891f780dc6893c0ee8fb65f2b80f8)] -> xpath: //span[.='Cash on Delivery/Pay on Delivery'][1]]
-Session ID: 8ad891f780dc6893c0ee8fb65f2b80f8
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-    <system-err><![CDATA[Feb 03, 2025 7:52:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:52:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:24:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder" time="0.0">
-    <skipped message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c2d82806779a219f21af0e274147cde3, clickElement {id=f.F634898D7802F896219EF80CE4D347FC.d.F470DBE0FA68C6A4E92627A6A89C47C1.e.18537}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64072}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64072/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (c2d82806779a219f21af0e274147cde3)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: c2d82806779a219f21af0e274147cde3"/>
-    <system-out><![CDATA[retrying for retrycount =1
+  <testcase name="verifyProductDetails" classname="amazon_Project1.Project1_Amazon.Testcase00007_ProductDetailsPage_project1_Enhanced" time="17.961">
+    <system-out><![CDATA[result is passed for test=verifyFilter
+Test started for test=verifyProductDetails
+Data from File @[row,cell]=[7, 1] is : notebook
+Data from File @[row,cell]=[7, 2] is : B01N5P1W5G 
 ]]></system-out>
-  </testcase>
-  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder" time="25.035">
-    <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=132.0.6834.160)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [52123eb58a3cc011f2778e21bf71be62, clickElement {id=f.879321277756F6AC44B280DAE160873E.d.3C756D95E2A76085FE92839CD9219E5A.e.182}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64940/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (52123eb58a3cc011f2778e21bf71be62)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]&#10;Session ID: 52123eb58a3cc011f2778e21bf71be62" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [52123eb58a3cc011f2778e21bf71be62, clickElement {id=f.879321277756F6AC44B280DAE160873E.d.3C756D95E2A76085FE92839CD9219E5A.e.182}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64940/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (52123eb58a3cc011f2778e21bf71be62)] -> xpath: //span[.='Cash on Delivery/Pay on Delivery'][1]]
-Session ID: 52123eb58a3cc011f2778e21bf71be62
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-]]></failure>
-  </testcase>
-  <testcase name="allpaymentmethod" classname="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1" time="3.119">
-    <system-out><![CDATA[result is passed for test=allpaymentmethod
-]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:51:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:24:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>
-  <testcase name="allpaymentmethod" classname="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1" time="4.725">
+  <testcase name="verifySort" classname="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1" time="12.307">
     <system-out><![CDATA[result is passed for test=verifyProductDetails
+Test started for test=verifySort
 ]]></system-out>
-    <system-err><![CDATA[Feb 03, 2025 7:53:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 04, 2025 2:25:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:53:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="applycoupen" classname="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" time="26.466">
+    <system-out><![CDATA[result is passed for test=verifySort
+Test started for test=applycoupen
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:25:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:54:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductDetails" classname="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1" time="15.62">
+    <system-out><![CDATA[result is passed for test=applycoupen
+Test started for test=verifyProductDetails
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:26:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
-Feb 03, 2025 7:54:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="loginwithincorrectcred" classname="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect" time="5.264">
+    <system-out><![CDATA[result is passed for test=verifyProductDetails
+Test started for test=loginwithincorrectcred
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:26:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+  </testcase>
+  <testcase name="loginwithcorrectcred[shital.bhosale@hotmail.com, Test@12345](1)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider" time="6.988">
+    <system-out><![CDATA[result is passed for test=loginwithincorrectcred
+Test started for test=loginwithcorrectcred
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:26:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+  </testcase>
+  <testcase name="loginwithcorrectcred[9604232794&#10;, Komal@2025](2)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider" time="0.0">
+    <skipped message="stale element reference: stale element not found&#10;  (Session info: chrome=132.0.6834.160)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f393c84cb0fcc0f12c701669c91c2a90, clickElement {id=f.2CD8166EB3D8218EC6439FF1CD008C75.d.3EA84559F909592FAB9856450BD6EB82.e.103}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54408/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (f393c84cb0fcc0f12c701669c91c2a90)] -&gt; xpath: //input[@class=&apos;a-button-input&apos;]]&#10;Session ID: f393c84cb0fcc0f12c701669c91c2a90"/>
+    <system-out><![CDATA[result is passed for test=loginwithcorrectcred
+Test started for test=loginwithcorrectcred
+retrying <loginwithcorrectcred> for retrycount =1
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:26:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+  </testcase>
+  <testcase name="loginwithcorrectcred[9604232794&#10;, Komal@2025](3)" classname="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider" time="5.724">
+    <system-out><![CDATA[result is SKIPPED for test=loginwithcorrectcred
+Test started for test=loginwithcorrectcred
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:26:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+  </testcase>
+  <testcase name="allpaymentmethod" classname="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1" time="21.97">
+    <system-out><![CDATA[result is passed for test=loginwithcorrectcred
+Test started for test=allpaymentmethod
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:27:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+  </testcase>
+  <testcase name="checkout" classname="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1" time="21.32">
+    <system-out><![CDATA[result is passed for test=allpaymentmethod
+Test started for test=checkout
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2025 2:27:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 132
 ]]></system-err>
   </testcase>

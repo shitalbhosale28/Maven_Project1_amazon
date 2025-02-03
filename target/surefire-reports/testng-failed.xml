@@ -1,107 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="7" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <parameter name="browser" value="chrome"/>
-  <test thread-count="7" parallel="tests" name="Test001(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration">
+      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider">
         <methods>
-          <include name="registration"/>
-          <include name="launchbrowser"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase01_Registration -->
-    </classes>
-  </test> <!-- Test001(failed) -->
-  <test thread-count="7" parallel="tests" name="Test011(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1">
-        <methods>
-          <include name="checkout"/>
+          <include name="loginwithcorrectcred" invocation-numbers="1"/>
           <include name="quit"/>
           <include name="launchbrowser"/>
         </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1 -->
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider -->
     </classes>
-  </test> <!-- Test011(failed) -->
-  <test thread-count="7" parallel="tests" name="Test02(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred">
-        <methods>
-          <include name="loginwithcorrectcred"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred -->
-    </classes>
-  </test> <!-- Test02(failed) -->
-  <test thread-count="7" parallel="tests" name="Test01(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration">
-        <methods>
-          <include name="registration"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase01_Registration -->
-    </classes>
-  </test> <!-- Test01(failed) -->
-  <test thread-count="7" parallel="tests" name="Test014(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder">
-        <methods>
-          <include name="applycoupen"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder -->
-    </classes>
-  </test> <!-- Test014(failed) -->
-  <test thread-count="7" parallel="tests" name="Test09(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1">
-        <methods>
-          <include name="addtocart"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1 -->
-    </classes>
-  </test> <!-- Test09(failed) -->
-  <test thread-count="7" parallel="tests" name="Test11(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1">
-        <methods>
-          <include name="checkout"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1 -->
-    </classes>
-  </test> <!-- Test11(failed) -->
-  <test thread-count="7" parallel="tests" name="Test14(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder">
-        <methods>
-          <include name="applycoupen"/>
-          <include name="launchbrowser"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder -->
-    </classes>
-  </test> <!-- Test14(failed) -->
-  <test thread-count="7" parallel="tests" name="Test10(failed)" verbose="0">
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1">
-        <methods>
-          <include name="addandremove"/>
-          <include name="quit"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1 -->
-    </classes>
-  </test> <!-- Test10(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

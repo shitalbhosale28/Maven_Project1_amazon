@@ -38,7 +38,7 @@ public class AddandDeleteCartPage_Project1 {
 		int i = 0;
 		if (incrementproduct.isDisplayed()) {
 
-			while (i < 3) {
+			while (i < 2) {
 				Thread.sleep(1000);
 				incrementproduct.click();
 				i++;
