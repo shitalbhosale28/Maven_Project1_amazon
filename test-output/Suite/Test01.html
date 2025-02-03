@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test01</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 01 20:29:01 IST 2025</td>
+<td>Started on:</td><td>Mon Feb 03 06:53:44 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (83 ms)</td>
+<tr><td>Total time:</td><td>308 seconds (308500 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,34 +68,43 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='amazon_Project1.Project1_Amazon.Testcase01_Registration.launchbrowser()'><b>launchbrowser</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase01_Registration<br>Parameters: null</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browsername&quot; is null
-	at amazon_Project1.Project1_Amazon.LoginandQuit.launchbrowser(LoginandQuit.java:32)
+<td title='amazon_Project1.Project1_Amazon.Testcase01_Registration.registration()'><b>registration</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase01_Registration<br/>
+<a href="#Output-1101641844" onClick='toggleBox("Output-1101641844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1101641844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1101641844">
+result is failed for test=null<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at amazon_Project1.Project1_Amazon.RegistrationPage_Project1.starthere_Register(RegistrationPage_Project1.java:35)
+	at amazon_Project1.Project1_Amazon.Testcase01_Registration.registration(Testcase01_Registration.java:9)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace947369140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace947369140'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browsername&quot; is null
-	at amazon_Project1.Project1_Amazon.LoginandQuit.launchbrowser(LoginandQuit.java:32)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1101641844", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1101641844'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at amazon_Project1.Project1_Amazon.RegistrationPage_Project1.starthere_Register(RegistrationPage_Project1.java:35)
+	at amazon_Project1.Project1_Amazon.Testcase01_Registration.registration(Testcase01_Registration.java:9)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
@@ -112,21 +121,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>0</td>
-<td>amazon_Project1.Project1_Amazon.Testcase01_Registration@3023df74</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='amazon_Project1.Project1_Amazon.Testcase01_Registration.quit()'><b>quit</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase01_Registration</td>
-<td></td>
-<td>-1738421941</td>
-<td>amazon_Project1.Project1_Amazon.Testcase01_Registration@3023df74</td></tr>
+<td>46</td>
+<td>amazon_Project1.Project1_Amazon.Testcase01_Registration@4009e306</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -137,24 +133,26 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='amazon_Project1.Project1_Amazon.Testcase01_Registration.registration()'><b>registration</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase01_Registration</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browsername&quot; is null
-	at amazon_Project1.Project1_Amazon.LoginandQuit.launchbrowser(LoginandQuit.java:32)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at amazon_Project1.Project1_Amazon.RegistrationPage_Project1.starthere_Register(RegistrationPage_Project1.java:35)
+	at amazon_Project1.Project1_Amazon.Testcase01_Registration.registration(Testcase01_Registration.java:9)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace531850534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace531850534'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browsername&quot; is null
-	at amazon_Project1.Project1_Amazon.LoginandQuit.launchbrowser(LoginandQuit.java:32)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2016526504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2016526504'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at amazon_Project1.Project1_Amazon.RegistrationPage_Project1.starthere_Register(RegistrationPage_Project1.java:35)
+	at amazon_Project1.Project1_Amazon.Testcase01_Registration.registration(Testcase01_Registration.java:9)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -173,8 +171,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>0</td>
-<td>amazon_Project1.Project1_Amazon.Testcase01_Registration@3023df74</td></tr>
+<td>54</td>
+<td>amazon_Project1.Project1_Amazon.Testcase01_Registration@4009e306</td></tr>
 </table><p>
 </body>
 </html>

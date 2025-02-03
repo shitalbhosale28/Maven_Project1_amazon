@@ -26,6 +26,9 @@ public class LoginandQuitHeadless {
 	@Parameters({ "browser", "options" })
 	@BeforeMethod
 	public void launchbrowser(@Optional String browsername, @Optional String options) {
+		if (options == null) {
+			options = "--headless";
+		}
 		if (browsername.equals("Edge")) {
 			EdgeOptions edgeOpt = new EdgeOptions();
 			edgeOpt.addArguments(options);
