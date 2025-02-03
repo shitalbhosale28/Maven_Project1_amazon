@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 03 06:56:39 IST 2025</td>
+<td>Started on:</td><td>Mon Feb 03 10:26:51 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>319 seconds (319797 ms)</td>
+<tr><td>Total time:</td><td>92 seconds (92829 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout()'><b>checkout</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.111)
+<td title='amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout()'><b>checkout</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1<br/>
+<a href="#Output-1894133009" onClick='toggleBox("Output-1894133009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894133009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894133009">
+Test started for test=checkout<br/>
+result is failed for test=checkout<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [333ba143dc974b7bc2f6309e6038dab6, clickElement {id=f.6F1473907DD5C04E59CD92EA17ADFFC4.d.A5957599491FA2D9AB5F01A13628E7B9.e.201}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64857}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64857/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (333ba143dc974b7bc2f6309e6038dab6)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]
-Session ID: 333ba143dc974b7bc2f6309e6038dab6
+Command: [aaad82079a57f0b1b72a4fdca3599c50, actions {actions=[org.openqa.selenium.interactions.Sequence@440b01bb]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54524/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aaad82079a57f0b1b72a4fdca3599c50
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -92,27 +100,26 @@ Session ID: 333ba143dc974b7bc2f6309e6038dab6
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:23)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at amazon_Project1.Project1_Amazon.HomePage_Project1.Account_list_homepage(HomePage_Project1.java:31)
+	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:11)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace930805112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace930805112'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
-  (Session info: chrome=132.0.6834.111)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1894133009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1894133009'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [333ba143dc974b7bc2f6309e6038dab6, clickElement {id=f.6F1473907DD5C04E59CD92EA17ADFFC4.d.A5957599491FA2D9AB5F01A13628E7B9.e.201}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64857}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64857/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (333ba143dc974b7bc2f6309e6038dab6)] -&gt; xpath: //span[.=&apos;Cash on Delivery/Pay on Delivery&apos;][1]]
-Session ID: 333ba143dc974b7bc2f6309e6038dab6
+Command: [aaad82079a57f0b1b72a4fdca3599c50, actions {actions=[org.openqa.selenium.interactions.Sequence@440b01bb]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54524/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aaad82079a57f0b1b72a4fdca3599c50
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -123,14 +130,11 @@ Session ID: 333ba143dc974b7bc2f6309e6038dab6
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.PaymentPage_project1.Cashondeliveryoption(PaymentPage_project1.java:76)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:23)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at amazon_Project1.Project1_Amazon.HomePage_Project1.Account_list_homepage(HomePage_Project1.java:31)
+	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:11)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -153,8 +157,8 @@ Session ID: 333ba143dc974b7bc2f6309e6038dab6
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>26</td>
-<td>amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1@1757cd72</td></tr>
+<td>7</td>
+<td>amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1@49e5f737</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -164,47 +168,65 @@ Session ID: 333ba143dc974b7bc2f6309e6038dab6
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout()'><b>checkout</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</td>
-<td><div><pre>java.util.NoSuchElementException
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
-	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
-	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:45)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+<td title='amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout()'><b>checkout</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1<br/>
+<a href="#Output-35299932" onClick='toggleBox("Output-35299932", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35299932" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35299932">
+Test started for test=checkout<br/>
+result is SKIPPED for test=checkout<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f621ff81c301b0b7e9fcbdb29062c757, clickElement {id=f.9299F04DCA4C62E70EBB1EC4A8379F33.d.B27FB906494BC536A7806E9F60456EEF.e.556}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54273/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f621ff81c301b0b7e9fcbdb29062c757)] -&gt; xpath: (//span[.=&apos;Sign in&apos;])[1]]
+Session ID: f621ff81c301b0b7e9fcbdb29062c757
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:499)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1039065353", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1039065353'><pre>java.util.NoSuchElementException
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
-	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
-	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:45)
-	at amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1.checkout(Testcase11_Checkoutprocess_project1.java:19)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:935)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+	... 8 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace35299932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35299932'><pre>org.openqa.selenium.WebDriverException: Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f621ff81c301b0b7e9fcbdb29062c757, clickElement {id=f.9299F04DCA4C62E70EBB1EC4A8379F33.d.B27FB906494BC536A7806E9F60456EEF.e.556}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54273/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f621ff81c301b0b7e9fcbdb29062c757)] -&gt; xpath: (//span[.=&apos;Sign in&apos;])[1]]
+Session ID: f621ff81c301b0b7e9fcbdb29062c757
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:499)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:430)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:935)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+	... 8 more
 </pre></div></td>
-<td>163</td>
-<td>amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1@1757cd72</td></tr>
+<td>17</td>
+<td>amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1@49e5f737</td></tr>
 </table><p>
 </body>
 </html>
