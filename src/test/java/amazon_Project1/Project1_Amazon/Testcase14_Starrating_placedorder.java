@@ -1,9 +1,7 @@
 package amazon_Project1.Project1_Amazon;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(value = TestListener.class)
 public class Testcase14_Starrating_placedorder extends LoginandQuit {
 	@Test(retryAnalyzer = RetryTests.class)
 	public void applycoupen() throws InterruptedException {

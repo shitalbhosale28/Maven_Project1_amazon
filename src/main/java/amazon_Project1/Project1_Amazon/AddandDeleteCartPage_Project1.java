@@ -36,13 +36,15 @@ public class AddandDeleteCartPage_Project1 {
 		Thread.sleep(3000);
 		cart.click();
 		int i = 0;
-		while (i < 3) {
-			Thread.sleep(2000);
-			incrementproduct.click();
-			i++;
-			// Thread.sleep(2000);
-		}
+		if (incrementproduct.isDisplayed()) {
 
+			while (i < 3) {
+				Thread.sleep(1000);
+				incrementproduct.click();
+				i++;
+				// Thread.sleep(2000);
+			}
+		}
 	}
 
 	public void deletecart(WebDriver driver) throws InterruptedException {

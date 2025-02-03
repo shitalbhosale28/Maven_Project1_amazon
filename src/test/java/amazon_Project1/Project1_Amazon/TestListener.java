@@ -6,7 +6,6 @@ import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -35,9 +34,9 @@ public class TestListener implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		ITestListener.super.onTestFailure(result);
 		Reporter.log("result is failed for test=" + result.getName());
 		System.out.println("result is failed for test=" + result.getName());
-		ITestListener.super.onTestFailure(result);
 		captureScreenshot(result);
 	}
 
@@ -75,17 +74,15 @@ public class TestListener implements ITestListener {
 	}
 
 	public void captureScreenshot(ITestResult result) {
-		Date d1 = new Date();
 		try {
 			SimpleDateFormat dt1 = new SimpleDateFormat("yyyy-MM-dd_HH-mm_ss-SSS");
-			String fileName = dt1.format(d1);
+			String fileName = dt1.format(new Date());
 
 			File Destination = new File("C:\\Users\\amolb\\eclipse-workspace\\Maven_Project1_amazon\\test-output\\Screenshot\\Test-" + result.getName() + "_" + fileName + ".png");
 
-			// Webdriver driver=(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInatnce())
-			WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getSuperclass().getDeclaredField("driver").get(result.getInstance());
-
-			TakesScreenshot ts = (TakesScreenshot) driver;
+			// WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getSuperclass().getDeclaredField("driver").get(result.getInstance());
+			// WebDriver driver = LoginandQuit.driver; // LoginandQuit.getDriver();
+			TakesScreenshot ts = (TakesScreenshot) LoginandQuit.driver;
 			File Source = ts.getScreenshotAs(OutputType.FILE);
 
 			FileHandler.copy(Source, Destination);

@@ -10,18 +10,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+@Listeners(value = TestListener.class)
 public class LoginandQuit {
-	public WebDriver driver;
+	public static WebDriver driver;
 
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
-	}
-
-	public void setDriver(WebDriver driver) {
-		this.driver = driver;
 	}
 
 	/**
@@ -42,9 +40,17 @@ public class LoginandQuit {
 		}
 
 		driver.get("https://www.amazon.in");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		driver.navigate().refresh();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.navigate().refresh();
 
 	}
 
