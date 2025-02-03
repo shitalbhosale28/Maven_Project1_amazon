@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 03 10:25:05 IST 2025</td>
+<td>Started on:</td><td>Mon Feb 03 11:05:19 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105572 ms)</td>
+<tr><td>Total time:</td><td>53 seconds (53571 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,65 +76,30 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen()'><b>applycoupen</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder<br/>
-<a href="#Output-267567873" onClick='toggleBox("Output-267567873", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-952748631" onClick='toggleBox("Output-952748631", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-267567873" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-267567873">
+<a href="#Output-952748631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-952748631">
 Test started for test=applycoupen<br/>
 result is failed for test=applycoupen<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9989a47afc75353907f2476c88b42f69, actions {actions=[org.openqa.selenium.interactions.Sequence@225ec891]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54023/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9989a47afc75353907f2476c88b42f69
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-	at amazon_Project1.Project1_Amazon.HomePage_Project1.Account_list_homepage(HomePage_Project1.java:31)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:11)
+<td><div><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
+	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
+	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace267567873", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace267567873'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=132.0.6834.160)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9989a47afc75353907f2476c88b42f69, actions {actions=[org.openqa.selenium.interactions.Sequence@225ec891]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54023/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9989a47afc75353907f2476c88b42f69
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
-	at amazon_Project1.Project1_Amazon.HomePage_Project1.Account_list_homepage(HomePage_Project1.java:31)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:11)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace952748631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace952748631'><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
+	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
+	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -157,7 +122,7 @@ Session ID: 9989a47afc75353907f2476c88b42f69
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>14</td>
+<td>17</td>
 <td>amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder@37ceb1df</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -169,58 +134,30 @@ Session ID: 9989a47afc75353907f2476c88b42f69
 </tr>
 <tr>
 <td title='amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen()'><b>applycoupen</b><br>Test class: amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder<br/>
-<a href="#Output-359000043" onClick='toggleBox("Output-359000043", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1752869118" onClick='toggleBox("Output-1752869118", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-359000043" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-359000043">
+<a href="#Output-1752869118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1752869118">
 Test started for test=applycoupen<br/>
 result is SKIPPED for test=applycoupen<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=(//span[.=&apos;Sign in&apos;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53500/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.HomePage_Project1.signin_homepage(HomePage_Project1.java:36)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:12)
+<td><div><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
+	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
+	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace359000043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace359000043'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, findElement {value=(//span[.=&apos;Sign in&apos;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\amolb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53500/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at amazon_Project1.Project1_Amazon.HomePage_Project1.signin_homepage(HomePage_Project1.java:36)
-	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:12)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1752869118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1752869118'><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
+	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
+	at amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder.applycoupen(Testcase14_Starrating_placedorder.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -243,7 +180,7 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
-<td>22</td>
+<td>15</td>
 <td>amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder@37ceb1df</td></tr>
 </table><p>
 </body>

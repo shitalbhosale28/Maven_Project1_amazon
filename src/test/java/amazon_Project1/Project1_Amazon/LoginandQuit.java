@@ -40,17 +40,9 @@ public class LoginandQuit {
 		}
 
 		driver.get("https://www.amazon.in");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		driver.navigate().refresh();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		try {
-			Thread.sleep(4000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		driver.navigate().refresh();
 
 	}
 
