@@ -14,7 +14,15 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class LoginandQuit {
-	WebDriver driver;
+	public WebDriver driver;
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
 
 	/**
 	 * @BeforeMethod public void launchbrowser() { String browser = "chrome"; launchbrowser(browser); }

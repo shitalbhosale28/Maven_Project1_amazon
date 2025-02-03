@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1">
+      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder">
         <methods>
-          <include name="verifySort"/>
+          <include name="applycoupen"/>
           <include name="launchbrowser"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1 -->
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
