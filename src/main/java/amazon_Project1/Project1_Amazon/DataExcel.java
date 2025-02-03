@@ -37,8 +37,6 @@ public class DataExcel {
 		// System.out.println(r1);
 		Cell c1 = r1.getCell(cellno);// here we get exact cell like row plus column
 		String username = c1.getStringCellValue();// getting values in the cell
-		System.out.println(username);
-
 		return username;
 	}
 

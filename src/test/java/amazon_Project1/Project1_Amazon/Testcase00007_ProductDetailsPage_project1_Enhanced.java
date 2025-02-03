@@ -3,7 +3,7 @@ package amazon_Project1.Project1_Amazon;
 import org.testng.annotations.Test;
 
 public class Testcase00007_ProductDetailsPage_project1_Enhanced extends LoginandQuit {
-	@Test(retryAnalyzer = RetryTests.class)
+	@Test(testName = "Testcase00007_ProductDetailsPage_project1_Enhanced", retryAnalyzer = RetryTests.class)
 	public void verifyProductDetails() throws InterruptedException {
 		HomePage_Project1_Enhanced h1 = new HomePage_Project1_Enhanced(driver);
 		SearchResultPage_Project1 s1 = new SearchResultPage_Project1(driver);

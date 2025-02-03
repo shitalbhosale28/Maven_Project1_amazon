@@ -3,7 +3,7 @@ package amazon_Project1.Project1_Amazon;
 import org.testng.annotations.Test;
 
 public class Testcase12_Allpaymentmethod_Project1 extends LoginandQuit {
-	@Test(retryAnalyzer = RetryTests.class)
+	@Test(testName = "Testcase12_Allpaymentmethod_Project1", retryAnalyzer = RetryTests.class)
 
 	public void allpaymentmethod() throws InterruptedException {
 		HomePage_Project1 h1 = new HomePage_Project1(driver);
