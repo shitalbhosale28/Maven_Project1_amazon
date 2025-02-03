@@ -29,13 +29,13 @@ public class LoginandQuit {
 	@Parameters({ "browser", "options" })
 	@BeforeMethod
 	public void launchbrowser(@Optional String browsername, @Optional String options) {
-		if ("Edge".equals(browsername)) {
+		if ("Edge".equalsIgnoreCase(browsername)) {
 			driver = new EdgeDriver();
 
-		} else if ("firefox".equals(browsername)) {
+		} else if ("firefox".equalsIgnoreCase(browsername)) {
 			driver = new FirefoxDriver();
 
-		} else if ("chrome".equals(browsername) || StringUtils.isEmpty(browsername)) {
+		} else if ("chrome".equalsIgnoreCase(browsername) || StringUtils.isEmpty(browsername)) {
 			driver = new ChromeDriver();
 		}
 

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class EditProfilePage_Project1 {
 
 	WebDriver driver;
-	WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //step1
 	@FindBy(xpath = "//button[.='Manage Profiles']")
 	// button[.='Manage Profiles']
@@ -35,12 +35,12 @@ public class EditProfilePage_Project1 {
 
 	public void manageprofile() {
 
-		w1.until(ExpectedConditions.visibilityOf(manageprofile_link));
+		wait.until(ExpectedConditions.visibilityOf(manageprofile_link));
 		manageprofile_link.click();
 	}
 
 	public void viewprofile() {
-		w1.until(ExpectedConditions.elementToBeClickable(view_link));
+		wait.until(ExpectedConditions.elementToBeClickable(view_link));
 		view_link.click();
 	}
 
@@ -55,7 +55,7 @@ public class EditProfilePage_Project1 {
 	}
 
 	public void changename() {
-		w1.until(ExpectedConditions.elementToBeClickable(editprofile_button));
+		wait.until(ExpectedConditions.elementToBeClickable(editprofile_button));
 		editprofile_button.click();
 	}
 

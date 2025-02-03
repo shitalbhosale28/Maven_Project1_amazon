@@ -54,6 +54,8 @@ public class RegistrationPage_Project1 {
 
 	// STEP3
 	public RegistrationPage_Project1(WebDriver driver) {
+		this.driver = driver;
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 

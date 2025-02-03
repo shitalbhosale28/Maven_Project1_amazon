@@ -1,15 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="amazon_Project1.Project1_Amazon.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
+      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder">
+        <methods>
+          <include name="applycoupen"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1">
+        <methods>
+          <include name="addandremove"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred">
+        <methods>
+          <include name="loginwithcorrectcred"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase02_Loginwithcorrectcred -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1">
+        <methods>
+          <include name="checkout"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1">
+        <methods>
+          <include name="verifyProductDetails"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1 -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect">
+        <methods>
+          <include name="loginwithincorrectcred"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase13_applycoupen">
+        <methods>
+          <include name="applycoupen"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase13_applycoupen -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1">
+        <methods>
+          <include name="addtocart"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1">
+        <methods>
+          <include name="searchproduct1"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1 -->
       <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration">
         <methods>
           <include name="registration"/>
-          <include name="launchbrowser"/>
           <include name="quit"/>
+          <include name="launchbrowser"/>
         </methods>
       </class> <!-- amazon_Project1.Project1_Amazon.Testcase01_Registration -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin">
+        <methods>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+          <include name="cartpage_withoutlogin"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter">
+        <methods>
+          <include name="verifyFilter"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile">
+        <methods>
+          <include name="editprofile"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase04_Editprofile -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1">
+        <methods>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+          <include name="allpaymentmethod"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1">
+        <methods>
+          <include name="verifySort"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- firefoxTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder">
+        <methods>
+          <include name="applycoupen"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase14_Starrating_placedorder -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1">
+        <methods>
+          <include name="addandremove"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1">
+        <methods>
+          <include name="checkout"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1">
+        <methods>
+          <include name="verifyProductDetails"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase13_applycoupen">
+        <methods>
+          <include name="applycoupen"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase13_applycoupen -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1">
+        <methods>
+          <include name="addtocart"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1">
+        <methods>
+          <include name="searchproduct1"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase01_Registration">
+        <methods>
+          <include name="registration"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase01_Registration -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin">
+        <methods>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+          <include name="cartpage_withoutlogin"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter">
+        <methods>
+          <include name="verifyFilter"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter -->
+      <class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile">
+        <methods>
+          <include name="editprofile"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.TestCase04_Editprofile -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1">
+        <methods>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+          <include name="allpaymentmethod"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1">
+        <methods>
+          <include name="verifySort"/>
+          <include name="quit"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
