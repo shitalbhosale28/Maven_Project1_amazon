@@ -5,15 +5,18 @@ import java.time.Duration;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-public class LoginandQuit {
+public class LoginandQuitHeadless {
 	WebDriver driver;
 
 	/**
@@ -24,13 +27,19 @@ public class LoginandQuit {
 	@BeforeMethod
 	public void launchbrowser(@Optional String browsername, @Optional String options) {
 		if (browsername.equals("Edge")) {
-			driver = new EdgeDriver();
+			EdgeOptions edgeOpt = new EdgeOptions();
+			edgeOpt.addArguments(options);
+			driver = new EdgeDriver(edgeOpt);
 
 		} else if (browsername.equals("firefox")) {
-			driver = new FirefoxDriver();
+			FirefoxOptions ffoptions = new FirefoxOptions();
+			ffoptions.addArguments(options);
+			driver = new FirefoxDriver(ffoptions);
 
 		} else if (browsername.equals("chrome") || StringUtils.isEmpty(browsername)) {
-			driver = new ChromeDriver();
+			ChromeOptions coptions = new ChromeOptions();
+			coptions.addArguments(options);
+			driver = new ChromeDriver(coptions);
 		}
 
 		driver.get("https://www.amazon.in");
