@@ -12,7 +12,7 @@
 		</classes>
 	</test> <!-- Test -->
 	<test thread-count="5" name="EdgeTest-paralleltest">
-		<parameter name="browser" value="Edge"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" />
 			<class name="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" />
