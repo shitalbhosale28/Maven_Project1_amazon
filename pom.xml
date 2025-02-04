@@ -114,8 +114,9 @@
 					<version>3.3.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml, testng_CrossBrowserSequential.xml, testng_parallel.xml</suiteXmlFile>
-
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>testng_CrossBrowserSequential.xml</suiteXmlFile>
+							<suiteXmlFile>testng_parallel.xml</suiteXmlFile>
 							<!--suiteXmlFile>target\surefire-reports\testng-failed.xml</suiteXmlFile-->
 						</suiteXmlFiles>
 					</configuration>
