@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite2" parallel="methods" >
-<listeners><listener class-name="amazon_Project1.Project1_Amazon.TestListener"></listener></listeners>
-  <test thread-count="5" name="ChromeTest-paralleltest">
-  <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase00007_ProductDetailsPage_project1_Enhanced"/>
-      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="EdgeTest-paralleltest">
-  <parameter name="browser" value="Edge"></parameter>
-    <classes>
-    <class name="amazon_Project1.Project1_Amazon.Testcase00007_ProductDetailsPage_project1_Enhanced"/>
-      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1"/>
-      
-    </classes>
-  </test> <!-- Test -->
+<suite name="Suite-ParallelMethodsCrossBrowser" parallel="methods">
+	<listeners>
+		<listener class-name="amazon_Project1.Project1_Amazon.TestListener"></listener>
+	</listeners>
+	<test thread-count="5" name="ChromeTest-paralleltest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" />
+			<class name="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="EdgeTest-paralleltest">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="amazon_Project1.Project1_Amazon.TestCase04_Editprofile" />
+			<class name="amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
