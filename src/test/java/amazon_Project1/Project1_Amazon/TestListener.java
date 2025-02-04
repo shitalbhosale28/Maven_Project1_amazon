@@ -6,6 +6,7 @@ import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -18,16 +19,17 @@ public class TestListener implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
-		Reporter.log("Test started for test=" + result.getName());
-		System.out.println("Test started for test=" + result.getName());
+		Reporter.log("Test started for test=" + result.getTestName() + "," + result.getName());
+		System.out.println("Test started for test=" + result.getTestName() + "," + result.getName());
+
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
-		Reporter.log("result is passed for test=" + result.getName());
-		System.out.println("result is passed for test=" + result.getName());
+		Reporter.log("result is passed for test=" + result.getTestName() + "," + result.getName());
+		System.out.println("result is passed for test=" + result.getTestName() + "," + result.getName());
 
 	}
 
@@ -35,8 +37,8 @@ public class TestListener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
-		Reporter.log("result is failed for test=" + result.getName());
-		System.out.println("result is failed for test=" + result.getName());
+		Reporter.log("result is failed for test=" + result.getTestName() + "," + result.getName());
+		System.out.println("result is failed for test=" + result.getTestName() + "," + result.getName());
 		captureScreenshot(result);
 	}
 
@@ -44,8 +46,8 @@ public class TestListener implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		result.getTestContext().getClass().getDeclaredFields();
-		Reporter.log("result is SKIPPED for test=" + result.getName());
-		System.out.println("result is SKIPPED for test=" + result.getName());
+		Reporter.log("result is SKIPPED for test=" + result.getTestName() + "," + result.getName());
+		System.out.println("result is SKIPPED for test=" + result.getTestName() + "," + result.getName());
 		ITestListener.super.onTestSkipped(result);
 	}
 
@@ -78,11 +80,12 @@ public class TestListener implements ITestListener {
 			SimpleDateFormat dt1 = new SimpleDateFormat("yyyy-MM-dd_HH-mm_ss-SSS");
 			String fileName = dt1.format(new Date());
 
-			File Destination = new File("C:\\Users\\amolb\\eclipse-workspace\\Maven_Project1_amazon\\test-output\\Screenshot\\Test-" + result.getName() + "_" + fileName + ".png");
+			File Destination = new File(
+					"C:\\Users\\amolb\\eclipse-workspace\\Maven_Project1_amazon\\test-output\\Screenshot\\Test-" + result.getName() + "_" + fileName + ".png");
 
-			// WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getSuperclass().getDeclaredField("driver").get(result.getInstance());
+			WebDriver driver = (WebDriver) result.getTestClass().getRealClass().getSuperclass().getDeclaredField("driver").get(result.getInstance());
 			// WebDriver driver = LoginandQuit.driver; // LoginandQuit.getDriver();
-			TakesScreenshot ts = (TakesScreenshot) LoginandQuit.driver;
+			TakesScreenshot ts = (TakesScreenshot) driver;
 			File Source = ts.getScreenshotAs(OutputType.FILE);
 
 			FileHandler.copy(Source, Destination);

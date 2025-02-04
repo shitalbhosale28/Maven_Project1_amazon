@@ -16,11 +16,8 @@ import org.testng.annotations.Parameters;
 
 @Listeners(value = TestListener.class)
 public class LoginandQuit {
-	public static WebDriver driver;
-
-	public static WebDriver getDriver() {
-		return driver;
-	}
+	public WebDriver driver;
+	// public static WebDriver driver;
 
 	/**
 	 * @BeforeMethod public void launchbrowser() { String browser = "chrome"; launchbrowser(browser); }
