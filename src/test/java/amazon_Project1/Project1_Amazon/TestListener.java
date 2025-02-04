@@ -19,8 +19,8 @@ public class TestListener implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
-		Reporter.log("Test started for test=" + result.getTestName() + "," + result.getName());
-		System.out.println("Test started for test=" + result.getTestName() + "," + result.getName());
+		Reporter.log("Test started for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
+		System.out.println("Test started for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
 
 	}
 
@@ -28,8 +28,8 @@ public class TestListener implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
-		Reporter.log("result is passed for test=" + result.getTestName() + "," + result.getName());
-		System.out.println("result is passed for test=" + result.getTestName() + "," + result.getName());
+		Reporter.log("result is passed for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
+		System.out.println("result is passed for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
 
 	}
 
@@ -37,8 +37,8 @@ public class TestListener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
-		Reporter.log("result is failed for test=" + result.getTestName() + "," + result.getName());
-		System.out.println("result is failed for test=" + result.getTestName() + "," + result.getName());
+		Reporter.log("result is failed for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
+		System.out.println("result is failed for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
 		captureScreenshot(result);
 	}
 
@@ -46,8 +46,8 @@ public class TestListener implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		result.getTestContext().getClass().getDeclaredFields();
-		Reporter.log("result is SKIPPED for test=" + result.getTestName() + "," + result.getName());
-		System.out.println("result is SKIPPED for test=" + result.getTestName() + "," + result.getName());
+		Reporter.log("result is SKIPPED for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
+		System.out.println("result is SKIPPED for test=" + result.getTestContext().getSuite().getName() + "," + result.getName());
 		ITestListener.super.onTestSkipped(result);
 	}
 
