@@ -3,20 +3,6 @@
 <suite parallel="methods" name="Failed suite [SuiteParallelAll]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1">
-        <methods>
-          <include name="verifyProductDetails"/>
-          <include name="launchbrowser"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1 -->
-      <class name="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1">
-        <methods>
-          <include name="addandremove"/>
-          <include name="launchbrowser"/>
-          <include name="quit"/>
-        </methods>
-      </class> <!-- amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1 -->
       <class name="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1">
         <methods>
           <include name="addtocart"/>
@@ -24,6 +10,13 @@
           <include name="quit"/>
         </methods>
       </class> <!-- amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1 -->
+      <class name="amazon_Project1.Project1_Amazon.Testcase13_applycoupen">
+        <methods>
+          <include name="applycoupen"/>
+          <include name="launchbrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- amazon_Project1.Project1_Amazon.Testcase13_applycoupen -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SuiteParallelAll] -->

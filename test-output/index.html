@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SuiteParallelAll" class="navigator-link">
-              <span class="suite-name border-skipped">SuiteParallelAll</span>
+              <span class="suite-name border-failed">SuiteParallelAll</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,  4 skipped,  14 passed</span>
+                    <span class="method-stats">17 methods, 1 failed,  3 skipped,  13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteParallelAll" class="hide-methods failed suite-SuiteParallelAll"> (hide)</a> <!-- hide-methods failed suite-SuiteParallelAll -->
+                      <a href="#" panel-name="suite-SuiteParallelAll" class="show-methods failed suite-SuiteParallelAll"> (show)</a> <!-- show-methods failed suite-SuiteParallelAll -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteParallelAll">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" class="method navigator-link" hash-for-method="applycoupen">applycoupen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteParallelAll -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -104,22 +118,17 @@
                     <div class="method-list-content skipped suite-SuiteParallelAll">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1" class="method navigator-link" hash-for-method="addandremove">addandremove</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" class="method navigator-link" hash-for-method="applycoupen">applycoupen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1" class="method navigator-link" hash-for-method="verifyProductDetails">verifyProductDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" class="method navigator-link" hash-for-method="applycoupen">applycoupen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-SuiteParallelAll -->
@@ -144,11 +153,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1" class="method navigator-link" hash-for-method="allpaymentmethod">allpaymentmethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteParallelAll" title="amazon_Project1.Project1_Amazon.Testcase13_applycoupen" class="method navigator-link" hash-for-method="applycoupen">applycoupen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -215,22 +219,22 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SuiteParallelAll" class="panel SuiteParallelAll">
-          <div class="suite-SuiteParallelAll-class-skipped">
+          <div class="suite-SuiteParallelAll-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</span>
+              <img src="failed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyProductDetails">
-                  </a> <!-- verifyProductDetails -->
-                  <span class="method-name">verifyProductDetails</span>
+                  <a name="applycoupen">
+                  </a> <!-- applycoupen -->
+                  <span class="method-name">applycoupen</span>
                   <div class="stack-trace">java.util.NoSuchElementException
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
 	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
 	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
-	at amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1.verifyProductDetails(Testcase07_ProductDetailsPage_project1.java:22)
+	at amazon_Project1.Project1_Amazon.Testcase13_applycoupen.applycoupen(Testcase13_applycoupen.java:19)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
@@ -239,32 +243,7 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-skipped -->
-          <div class="suite-SuiteParallelAll-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addandremove">
-                  </a> <!-- addandremove -->
-                  <span class="method-name">addandremove</span>
-                  <div class="stack-trace">java.util.NoSuchElementException
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
-	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
-	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
-	at amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1.addandremove(TestCase10_AddandRemoveCart_Project1.java:19)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 10 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-skipped -->
+          </div> <!-- suite-SuiteParallelAll-class-failed -->
           <div class="suite-SuiteParallelAll-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -288,16 +267,41 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-skipped -->
+          <div class="suite-SuiteParallelAll-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addtocart">
-                  </a> <!-- addtocart -->
-                  <span class="method-name">addtocart</span>
+                  <a name="applycoupen">
+                  </a> <!-- applycoupen -->
+                  <span class="method-name">applycoupen</span>
                   <div class="stack-trace">java.util.NoSuchElementException
 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
 	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
 	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
-	at amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1.addtocart(TestCase09_Addtocart_Project1.java:19)
+	at amazon_Project1.Project1_Amazon.Testcase13_applycoupen.applycoupen(Testcase13_applycoupen.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applycoupen">
+                  </a> <!-- applycoupen -->
+                  <span class="method-name">applycoupen</span>
+                  <div class="stack-trace">java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1026)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1047)
+	at amazon_Project1.Project1_Amazon.Product1page_Project1.product(Product1page_Project1.java:46)
+	at amazon_Project1.Project1_Amazon.Testcase13_applycoupen.applycoupen(Testcase13_applycoupen.java:19)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
@@ -307,6 +311,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-SuiteParallelAll-class-skipped -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySort">
+                  </a> <!-- verifySort -->
+                  <span class="method-name">verifySort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
           <div class="suite-SuiteParallelAll-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -325,6 +344,36 @@
           <div class="suite-SuiteParallelAll-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addandremove">
+                  </a> <!-- addandremove -->
+                  <span class="method-name">addandremove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails">
+                  </a> <!-- verifyProductDetails -->
+                  <span class="method-name">verifyProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -333,6 +382,63 @@
                   <a name="searchproduct1">
                   </a> <!-- searchproduct1 -->
                   <span class="method-name">searchproduct1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithcorrectcred(9604232794
+, Komal@2025)">
+                  </a> <!-- loginwithcorrectcred(9604232794
+, Komal@2025) -->
+                  <span class="method-name">loginwithcorrectcred</span>
+                  <span class="parameters">(9604232794
+, Komal@2025)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithcorrectcred(shital.bhosale@hotmail.com, Test@12345)">
+                  </a> <!-- loginwithcorrectcred(shital.bhosale@hotmail.com, Test@12345) -->
+                  <span class="method-name">loginwithcorrectcred</span>
+                  <span class="parameters">(shital.bhosale@hotmail.com, Test@12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteParallelAll-class-passed -->
+          <div class="suite-SuiteParallelAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout">
+                  </a> <!-- checkout -->
+                  <span class="method-name">checkout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -363,123 +469,6 @@
                   <a name="cartpage_withoutlogin">
                   </a> <!-- cartpage_withoutlogin -->
                   <span class="method-name">cartpage_withoutlogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySort">
-                  </a> <!-- verifySort -->
-                  <span class="method-name">verifySort</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductDetails">
-                  </a> <!-- verifyProductDetails -->
-                  <span class="method-name">verifyProductDetails</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addandremove">
-                  </a> <!-- addandremove -->
-                  <span class="method-name">addandremove</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addtocart">
-                  </a> <!-- addtocart -->
-                  <span class="method-name">addtocart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="applycoupen">
-                  </a> <!-- applycoupen -->
-                  <span class="method-name">applycoupen</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkout">
-                  </a> <!-- checkout -->
-                  <span class="method-name">checkout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteParallelAll-class-passed -->
-          <div class="suite-SuiteParallelAll-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginwithcorrectcred(9604232794
-, Komal@2025)">
-                  </a> <!-- loginwithcorrectcred(9604232794
-, Komal@2025) -->
-                  <span class="method-name">loginwithcorrectcred</span>
-                  <span class="parameters">(9604232794
-, Komal@2025)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginwithcorrectcred(shital.bhosale@hotmail.com, Test@12345)">
-                  </a> <!-- loginwithcorrectcred(shital.bhosale@hotmail.com, Test@12345) -->
-                  <span class="method-name">loginwithcorrectcred</span>
-                  <span class="parameters">(shital.bhosale@hotmail.com, Test@12345)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -578,84 +567,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'applycoupen')
-data.setCell(0, 2, 'amazon_Project1.Project1_Amazon.Testcase13_applycoupen')
-data.setCell(0, 3, 51632);
+data.setCell(0, 1, 'addandremove')
+data.setCell(0, 2, 'amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1')
+data.setCell(0, 3, 65708);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addandremove')
-data.setCell(1, 2, 'amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1')
-data.setCell(1, 3, 46577);
+data.setCell(1, 1, 'allpaymentmethod')
+data.setCell(1, 2, 'amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1')
+data.setCell(1, 3, 47562);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'allpaymentmethod')
-data.setCell(2, 2, 'amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1')
-data.setCell(2, 3, 45681);
+data.setCell(2, 1, 'checkout')
+data.setCell(2, 2, 'amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1')
+data.setCell(2, 3, 42919);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'editprofile')
-data.setCell(3, 2, 'amazon_Project1.Project1_Amazon.TestCase04_Editprofile')
-data.setCell(3, 3, 43831);
+data.setCell(3, 1, 'addtocart')
+data.setCell(3, 2, 'amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1')
+data.setCell(3, 3, 37736);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyFilter')
-data.setCell(4, 2, 'amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter')
-data.setCell(4, 3, 36306);
+data.setCell(4, 1, 'applycoupen')
+data.setCell(4, 2, 'amazon_Project1.Project1_Amazon.Testcase13_applycoupen')
+data.setCell(4, 3, 31387);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'addtocart')
-data.setCell(5, 2, 'amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1')
-data.setCell(5, 3, 35922);
+data.setCell(5, 1, 'verifyProductDetails')
+data.setCell(5, 2, 'amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1')
+data.setCell(5, 3, 30094);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addandremove')
-data.setCell(6, 2, 'amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1')
-data.setCell(6, 3, 33996);
+data.setCell(6, 1, 'verifyFilter')
+data.setCell(6, 2, 'amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter')
+data.setCell(6, 3, 29763);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'addtocart')
 data.setCell(7, 2, 'amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1')
-data.setCell(7, 3, 33318);
+data.setCell(7, 3, 29403);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'cartpage_withoutlogin')
-data.setCell(8, 2, 'amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin')
-data.setCell(8, 3, 31318);
+data.setCell(8, 1, 'editprofile')
+data.setCell(8, 2, 'amazon_Project1.Project1_Amazon.TestCase04_Editprofile')
+data.setCell(8, 3, 29153);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkout')
-data.setCell(9, 2, 'amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1')
-data.setCell(9, 3, 31085);
+data.setCell(9, 1, 'verifySort')
+data.setCell(9, 2, 'amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1')
+data.setCell(9, 3, 28715);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyProductDetails')
-data.setCell(10, 2, 'amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1')
-data.setCell(10, 3, 29764);
+data.setCell(10, 1, 'applycoupen')
+data.setCell(10, 2, 'amazon_Project1.Project1_Amazon.Testcase13_applycoupen')
+data.setCell(10, 3, 27538);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'searchproduct1')
 data.setCell(11, 2, 'amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1')
-data.setCell(11, 3, 28008);
+data.setCell(11, 3, 19101);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyProductDetails')
-data.setCell(12, 2, 'amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1')
-data.setCell(12, 3, 26627);
+data.setCell(12, 1, 'applycoupen')
+data.setCell(12, 2, 'amazon_Project1.Project1_Amazon.Testcase13_applycoupen')
+data.setCell(12, 3, 17783);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'addtocart')
-data.setCell(13, 2, 'amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1')
-data.setCell(13, 3, 26341);
+data.setCell(13, 1, 'loginwithcorrectcred')
+data.setCell(13, 2, 'amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider')
+data.setCell(13, 3, 15932);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'loginwithcorrectcred')
-data.setCell(14, 2, 'amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider')
-data.setCell(14, 3, 26016);
+data.setCell(14, 1, 'cartpage_withoutlogin')
+data.setCell(14, 2, 'amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin')
+data.setCell(14, 3, 15134);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifySort')
-data.setCell(15, 2, 'amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1')
-data.setCell(15, 3, 25391);
+data.setCell(15, 1, 'loginwithcorrectcred')
+data.setCell(15, 2, 'amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider')
+data.setCell(15, 3, 14306);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'loginwithincorrectcred')
 data.setCell(16, 2, 'amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect')
-data.setCell(16, 3, 15133);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'loginwithcorrectcred')
-data.setCell(17, 2, 'amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider')
-data.setCell(17, 3, 14286);
+data.setCell(16, 3, 7446);
 window.suiteTableData['SuiteParallelAll']= { tableData: data, tableDiv: 'times-div-SuiteParallelAll'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-SuiteParallelAll">
               </div> <!-- times-div-SuiteParallelAll -->
             </div> <!-- times-div -->
@@ -667,74 +652,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifySort</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifySort</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,verifySort</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">verifyFilter</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifyFilter</span>
                 <span class="reporter-method-output">result is passed for test=SuiteParallelAll,verifyFilter</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginwithcorrectcred(9604232794
-, Komal@2025)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,loginwithcorrectcred</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,loginwithcorrectcred</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchproduct1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,searchproduct1</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,searchproduct1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">checkout</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,checkout</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,checkout</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addandremove</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,addandremove</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,addandremove</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">applycoupen</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,applycoupen</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,applycoupen</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyProductDetails</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifyProductDetails</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,verifyProductDetails</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addtocart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,addtocart</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,addtocart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginwithincorrectcred</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,loginwithincorrectcred</span>
-                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,loginwithincorrectcred</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -749,6 +670,56 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test started for test=SuiteParallelAll,editprofile</span>
                 <span class="reporter-method-output">result is passed for test=SuiteParallelAll,editprofile</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginwithincorrectcred</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,loginwithincorrectcred</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,loginwithincorrectcred</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addtocart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,addtocart</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,addtocart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchproduct1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,searchproduct1</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,searchproduct1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySort</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifySort</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,verifySort</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,checkout</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,checkout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginwithcorrectcred(9604232794
+, Komal@2025)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,loginwithcorrectcred</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,loginwithcorrectcred</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifyProductDetails</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,verifyProductDetails</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -769,7 +740,21 @@ return data;
               <span class="reporter-method-name">addandremove</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test started for test=SuiteParallelAll,addandremove</span>
-                <span class="reporter-method-output">result is SKIPPED for test=SuiteParallelAll,addandremove</span>
+                <span class="reporter-method-output">result is passed for test=SuiteParallelAll,addandremove</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">applycoupen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,applycoupen</span>
+                <span class="reporter-method-output">result is failed for test=SuiteParallelAll,applycoupen</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">applycoupen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,applycoupen</span>
+                <span class="reporter-method-output">result is SKIPPED for test=SuiteParallelAll,applycoupen</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -780,17 +765,10 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyProductDetails</span>
+              <span class="reporter-method-name">applycoupen</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,verifyProductDetails</span>
-                <span class="reporter-method-output">result is SKIPPED for test=SuiteParallelAll,verifyProductDetails</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addtocart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test started for test=SuiteParallelAll,addtocart</span>
-                <span class="reporter-method-output">result is SKIPPED for test=SuiteParallelAll,addtocart</span>
+                <span class="reporter-method-output">Test started for test=SuiteParallelAll,applycoupen</span>
+                <span class="reporter-method-output">result is SKIPPED for test=SuiteParallelAll,applycoupen</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -815,20 +793,6 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase04_Editprofile</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(null, null)</span>
@@ -836,351 +800,343 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">778 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">searchproduct1</span>
-                <span class="method-start">9933 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyFilter</span>
-                <span class="method-start">10480 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginwithincorrectcred</span>
-                <span class="method-start">11957 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">959 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginwithcorrectcred(shital.bhosale@hotmail.com, Test@12345)</span>
-                <span class="method-start">12630 ms</span>
+                <span class="method-start">13692 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase04_Editprofile</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">editprofile</span>
-                <span class="method-start">15376 ms</span>
+                <span class="method-start">16655 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchproduct1</span>
+                <span class="method-start">17124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginwithincorrectcred</span>
+                <span class="method-start">17948 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFilter</span>
+                <span class="method-start">18575 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase03_LoginwithIncorrect</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">27129 ms</span>
+                <span class="method-start">25420 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">26223 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">28001 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase05_SearchProduct_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">37951 ms</span>
+                <span class="method-start">36240 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">38756 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">43648 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">46788 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">53216 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">53379 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyProductDetails</span>
-                <span class="method-start">54807 ms</span>
+                <span class="method-start">41352 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">56808 ms</span>
+                <span class="method-start">44282 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase04_Editprofile</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">59208 ms</span>
+                <span class="method-start">45816 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifySort</span>
-                <span class="method-start">62811 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase06_VerifyFilter</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">48343 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithcorrectcred(9604232794
 , Komal@2025)</span>
-                <span class="method-start">63192 ms</span>
+                <span class="method-start">52651 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">54338 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">54559 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">65722 ms</span>
+                <span class="method-start">54952 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addtocart</span>
-                <span class="method-start">68957 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase02_Loginwithdataprovider</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">77486 ms</span>
+                <span class="method-start">68585 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">applycoupen</span>
-                <span class="method-start">77855 ms</span>
+                <span class="method-start">68820 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">79522 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">81446 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">88203 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addandremove</span>
-                <span class="method-start">90235 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">95299 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">98843 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">100369 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">100985 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyProductDetails</span>
-                <span class="method-start">108425 ms</span>
+                <span class="method-name">verifySort</span>
+                <span class="method-start">69642 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addtocart</span>
-                <span class="method-start">116418 ms</span>
+                <span class="method-start">71204 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">71448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">73564 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">74577 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addandremove</span>
+                <span class="method-start">83925 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkout</span>
-                <span class="method-start">117484 ms</span>
+                <span class="method-start">89716 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase08_VerifySort_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">124235 ms</span>
+                <span class="method-start">98358 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">129488 ms</span>
+                <span class="method-start">100212 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase07_ProductDetailsPage_project1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">138191 ms</span>
+                <span class="method-start">108942 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">138435 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">138436 ms</span>
+                <span class="method-start">115779 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">116366 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">116964 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">allpaymentmethod</span>
-                <span class="method-start">148521 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">148571 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addandremove</span>
-                <span class="method-start">149337 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">149755 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">150606 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(null, null)</span>
-                <span class="method-start">151000 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">cartpage_withoutlogin</span>
-                <span class="method-start">157888 ms</span>
+                <span class="method-start">125750 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addtocart</span>
-                <span class="method-start">159369 ms</span>
+                <span class="method-start">128198 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase11_Checkoutprocess_project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">189209 ms</span>
+                <span class="method-start">132636 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applycoupen</span>
+                <span class="method-start">135115 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">194204 ms</span>
+                <span class="method-start">149634 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase09_Addtocart_Project1</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">195292 ms</span>
+                <span class="method-start">157604 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.TestCase10_AddandRemoveCart_Project1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">160745 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">195916 ms</span>
+                <span class="method-start">162655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(null, null)</span>
+                <span class="method-start">163843 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cartpage_withoutlogin</span>
+                <span class="method-start">168203 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">applycoupen</span>
+                <span class="method-start">172739 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase12_Allpaymentmethod_Project1</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">173314 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase15_Cartpage_Withoutlogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">183338 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazon_Project1.Project1_Amazon.Testcase13_applycoupen</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">190716 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
